@@ -31,7 +31,7 @@ function About() {
             <div className="team-member">
               <div className="team-member-avatar">JD</div>
               <h3>Dipit Madan</h3>
-              <p>Developer</p>
+              <p>23BCE0813</p>
             </div>
             <div className="team-member">
               <div className="team-member-avatar">JS</div>

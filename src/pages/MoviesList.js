@@ -11,12 +11,12 @@ function MoviesList() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        // Simulating API fetch with local JSON
+      // fetching the data from movies.json 
         const response = await fetch('/data/movies.json');
 
         const data = await response.json();
         
-        // Extract unique categories
+        // Extracting the unique categories
         const uniqueCategories = ['All', ...new Set(data.map(movie => movie.category))];
         setCategories(uniqueCategories);
         
